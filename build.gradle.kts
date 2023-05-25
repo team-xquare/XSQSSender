@@ -3,8 +3,9 @@ plugins {
     application
 }
 
-group = "io.xsqssender"
-version = "1.0-SNAPSHOT"
+group = "io.github.xsqssender"
+version = "1.0.0"
+description = "Xquare SQS Sender"
 
 repositories {
     mavenCentral()
@@ -12,6 +13,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation(Dependencies.AWS_MESSAGING)
 }
 
 tasks.test {
