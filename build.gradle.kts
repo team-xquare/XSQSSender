@@ -3,7 +3,7 @@ plugins {
     application
 }
 
-group = "io.github.xsqssender"
+group = "io.github.team-xquare"
 version = "1.0.0"
 description = "Xquare SQS Sender"
 
